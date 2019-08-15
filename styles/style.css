@@ -1,0 +1,214 @@
+.container {
+    position: relative;
+}
+
+h1{
+    font-family: 'Itim', cursive;
+    font-size: 160px;
+    color: aliceblue;
+    top: 100px;
+    text-align: center;
+    position: relative;
+}  
+.button-onclick{
+    position: absolute;
+    top: 300px;
+    left: 44.5%;
+    background-color: #f44336;
+    font-family: 'Jaldi', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button-buy{
+    position: absolute;
+    top: 500px;
+    left: 44.5%;
+    background-color: #f44336;
+    font-family: 'Jaldi', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+body{
+    background-image: url("bg-image.jpg");
+    background-size: cover;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.order-text{
+
+    text-align: center;
+   
+}
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #898989;
+}
+
+li.nav-list{
+    display: inline;
+    margin: 100px;
+}
+
+.our-text{
+    font-size: 24px;
+
+    font-family: 'Itim', cursive;
+    color: white;
+    text-align: center;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: white;
+    
+}
+.product-table{
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.product-text{
+    font-size: 24px;
+
+    font-family: 'Itim', cursive;
+    color: white;
+    text-align: center;
+}
+table{
+    
+    color: white;
+    table-layout: auto;
+    text-align: center;
+    border-collapse: collapse;
+        
+        
+}
+table, td, th {
+    font-family: 'Kanit', sans-serif;
+    padding: 30px;
+    color:#613e3b;
+    border: 1px solid white;
+    font-size: 24px;
+}
+th{
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #d67573;
+    
+}
+tr:nth-child(even){
+    background-color: #fcfaf1;
+}
+tr:nth-child(odd){
+    background-color: #f6e7ce;
+}
+form.form-contact {
+    
+    display: table;
+    margin: auto;
+    
+}
+.form-contact {
+    position: relative;
+    background-color: #f6e7ce;
+    display: table-row;
+    padding: 30px;
+  
+}
+.form-contact2{  
+    display: inline-flex;
+    
+  
+}
+div.submit{
+
+    text-align: center;
+    margin-left: 25%;
+}
+
+input {
+    display: table-cell;
+    margin: 15px;
+    text-align: center;
+
+}
+label{
+    padding-right: 10px;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+textarea{
+    display: table-cell;
+    
+}
+
+
+.story{
+    
+    border-style:dashed;
+    border-color: #078ca9;
+    border-width: 10px;
+    background-color: #b7e1e4;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 10px;
+}
+.square{
+
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    color: #18288d;
+    list-style-type: square;
+    
+}
+
+
+div.row{
+    margin-left: 40%;
+    align-content: center;
+    display: flex;
+}
+
+.owl-img{
+    margin: 10px;
+}
+
+h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+}
